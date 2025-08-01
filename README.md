@@ -1,81 +1,46 @@
-# 🛡️ Aegis — Behavioral Obfuscator & Emotional Manipulation Detector
+# 🛡 Aegis Obfuscator Extension
 
-[![GitHub release](https://img.shields.io/github/v/release/jmck10E/aegis?style=for-the-badge)](https://github.com/jmck10/aegis/releases)  
-[![License](https://img.shields.io/github/license/jcmck10/aegis?style=for-the-badge)](LICENSE)  
-[![Issues](https://img.shields.io/github/issues/jcmck10/aegis?style=for-the-badge)](https://github.com/jcmck10/aegis/issues)  
-[![Code Size](https://img.shields.io/github/languages/code-size/jcmck10/aegis?style=for-the-badge)](https://github.com/jcmck10/aegis)  
+**Counter surveillance. Reclaim agency.**
 
----
-
-## Overview
-
-Aegis is a user script designed to help users protect their cognitive sovereignty online by:
-
-- **Behavioral obfuscation**: Simulating human-like randomness to confuse trackers and profiling scripts.  
-- **Emotional manipulation detection**: Real-time scanning of webpage content to identify emotional trigger phrases and manipulation tactics.  
-- **Severity visualization**: A live status panel with a color-coded severity bar indicating emotional intensity on the page.
+Aegis is a privacy-focused browser extension designed to obfuscate behavioral patterns in real time. It injects subtle, randomized interactions — like mouse movements, scroll events, and keystrokes — to disrupt profiling and data collection by trackers and surveillance systems.
 
 ---
 
-## Features
+### ⚙️ Features
 
-- Lightweight, runs in browser via userscript managers like Tampermonkey or Greasemonkey  
-- Toggle the debug/status panel easily with **Ctrl + Shift + A**  
-- Logs detected manipulation triggers and emotional keywords in real-time  
-- Monitors dynamic page content with a MutationObserver for ongoing analysis  
-
----
-
-## Installation
-
-### Prerequisites
-
-- A modern browser (Chrome, Firefox, Edge, etc.)  
-- Userscript manager extension such as [Tampermonkey](https://www.tampermonkey.net/) or [Greasemonkey](https://www.greasespot.net/)
-
-### Steps
-
-1. Visit the [Releases page](https://github.com/jcmck10/aegis/releases)  
-2. Download the latest `aegis.user.js` file  
-3. Open the userscript manager in your browser and import the downloaded script  
-4. Enable the script for all websites (`*://*/*`)  
-5. Reload any webpage to start protecting yourself  
+- 🖱 Simulated mouse movement
+- 🧾 Randomized scrolling
+- ⌨️ Fake keyboard input
+- 🎭 Behavioral noise injection to disrupt profiling
 
 ---
 
-## Usage
+### 🧪 Installation
 
-- Press **Ctrl + Shift + A** to toggle the Aegis status panel  
-- Watch the severity bar for emotional intensity cues:  
-  - **Green**: Low / no detected manipulation  
-  - **Yellow**: Mild emotional triggers detected  
-  - **Red**: High emotional manipulation intensity detected  
-- Review the log to see what triggers were found  
+1. Clone or download this repo.
+2. Open Chrome and go to `chrome://extensions/`
+3. Enable **Developer Mode**
+4. Click **Load unpacked** and select the repo folder
 
----
-
-## Development
-
-Want to contribute? Feel free to:
-
-- Fork the repository  
-- Open issues or feature requests  
-- Submit pull requests with improvements or bug fixes  
+That’s it — Aegis will begin running in the background immediately.
 
 ---
 
-## License
+### 🔧 Configuration
 
-This project is licensed under the [MIT License](LICENSE).  
+Modify `config.js` (coming soon) to toggle specific behaviors or customize intervals.
+
+---
+
+### 📜 License
+
+[MIT License](./LICENSE)
 
 ---
 
-## Author
+### 💡 Philosophy
 
-Justin McKay — *Building tools for cognitive sovereignty and digital self-defense*  
-[GitHub](https://github.com/jcmck10) | [Contact](mailto:your.email@example.com)
-
----
+Aegis is built for cognitive sovereignty — to help people reclaim autonomy in digital environments increasingly shaped by manipulation and data exploitation.
 
 *Stay safe and think freely.*  
 🛡️✨
