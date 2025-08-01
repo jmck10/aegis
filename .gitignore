@@ -1,0 +1,22 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS crap
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+
+# JetBrains IDEs
+.idea/
+
+# Chrome Extension build artifacts
+*.zip
+
+# Ignore environment files
+.env# Created by venv; see https://docs.python.org/3/library/venv.html
+*
